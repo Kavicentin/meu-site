@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>KIQ's</title>
+    <meta charset="utf-8">
+
+    <link rel="SHORTCUT ICON" href="_img/logo.png" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icon-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+
+    <style>
+        .titulo{
+            font-family: 'Righteous', cursive;
+            font-size: 200%;
+        }
+        h1{
+          font-family: 'Amatic SC', cursive;
+        }
+        .titulo2{
+          font-family: 'Amatic SC', cursive;
+          font-size: 200%;
+        }
+        .tamanho{
+          width: 60%;
+    		  max-width: 100%;
+    		  margin: 0 auto;
+        }
+        .texto{
+          font-family: 'Amatic SC', cursive; 
+          text-align: justify;
+        }
+        .carrossel{
+          color: #fff;
+        }
+        .musica{
+          font-size: 21px;
+        }
+        .flex-box{
+          float: left;
+          border: transparent thin solid;
+          padding: 5px;
+          margin: 0px 10px 10px 0;
+          max-width: 186px;
+        }
+    </style>
+  </head>
+  <body style="background-color: #F0F0F0;">
+
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #6d03da;">
+            <div class="container">
+              <a class="navbar-brand titulo" href="#">
+                  KiQ
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Apresentação</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Esporte</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Música</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Presente</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Futuro</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="tamanho text-center" >
+      <!-- Apresentação -->
+      <div class="mb-4" style="background-color: #FFFFFF;">
+        <h1 class="m-4 pt-2">
+          Apresentação
+        </h1>
+        <img class="mb-3" src="_img/miranha.gif" class="img-fluid" alt="...">
+        <p class="texto h3 mx-4 pb-4">
+          Olá, meu nome é... bom, eu não posso falar meu nome, então me chame como quiser. Eu tenho 19 anos, nasci no dia 30/01/2002 em <strong>São Mateus</strong>, Zona Leste de São Paulo, onde vivo até hoje. Essa página vai falar um pouco sobre mim, para você poder me conhecer sem me conhecer. Vou falar sobre meus hobbies, gostos, atividades e planos. Basicamente é isso, próximo tópico. </br> Ps: Sou <strong>FANÁTICO</strong> por <strong>bolo de cenoura</strong>
+        </p>
+      </div>
+
+      <!-- Esportes -->
+      <div class="mb-4" style="background-color: #FFFFFF;">
+        <h1 class="mt-4 pt-2">
+          Esportes
+        </h1>
+        <div class="carrossel">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="background-color: #b8083e;">
+                <div class="row">
+                  <div class="col-12 col-lg-6 p-5">
+                    <h1>Futebol americano</h1>
+                    <p class="texto">Sou fanático por futebol americano, inclusive pratico no time Santo André Werewoves, na NFL toço para o time <strong>San Francisco 49ers</strong> pelo fato de eu ser apaixonado pela Califórnia.</p>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                      <img src="_img/49ers.gif" class="d-block w-100 mt-5 mr-3" alt="...">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-color: #000000;">
+                <div class="row">
+                  <div class="col-12 col-lg-6 p-5 navbar-dark">
+                    <h1>Futebol</h1>
+                    <p class="texto">Minha história com o <strong>Corinthians</strong> vai muito além de torcer, desde que eu me conheço por gente sou apaixonado por esse time. Corinthiano, maloqueiro e sofredor, graças a Deus.</p>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                      <img width="50%" src="_img/corinthians.jpg" class="d-block my-3 mr-5" alt="...">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-color: #20267e;">
+                <div class="row">
+                  <div class="col-12 col-lg-6 p-5 navbar-dark">
+                    <h1>Lutas</h1>
+                    <p class="texto">Também sou apaixonado por lutas, faço <strong>judô</strong> desde os meus 8 anos, onde estou na faixa laranja, e <strong>jiu-jitsu</strong> desde os meus 13, onde estou na faixa azul. Sem dúvidas o judô foi um dos principais responsáveis por <strong>moldar minha personalidade</strong>.</p>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                      <img src="_img/judo.gif" class="d-block my-3 mr-5 w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="texto h3 mx-4 pb-4 mt-4">
+          Bom, como você pode ter visto o esporte sempre fez e sempre vai fazer parte da minha vida, é sem duvidas a coisa que eu mais gosto de fazer na vida. Sou eternamente grato aos meus Senseis de judô por desde criança terem me ensinado o caminho suave e os fundamentos que foram responsáveis pela minha educação. 
+        </p>
+      </div>
+
+      <!-- Musica -->
+      <div class="mb-4" style="background-color: #FFFFFF;">
+        <h1 class="m-4 pt-2">
+          Música
+        </h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="card">
+                <img src="_img/queen.jpg" class="card-img-top" alt="Queen">
+                <div class="card-body">
+                  <h5 class="card-title titulo2">Queen</h5>
+                  <p class="card-text texto musica">Sem dúvidas a <strong>minha banda favorita</strong>, que infelizmente nunca irei no show dele. Posso escuta-los pra sempre, ainda mais a minha música favorita: <strong>Bohemian Rhapsody</strong>, nome também do meu filme favorito. Eu e minha família temos uma ligação muito forte com <strong>Queen</strong>, por isso é uma banda tão especial pra mim.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card">
+                <img src="_img/kings.jpg" class="card-img-top" alt="Kings of Leon">
+                <div class="card-body">
+                  <h5 class="card-title titulo2">Kings of Leon</h5>
+                  <p class="card-text texto musica">Minha banda em atividade favorita, amo todas as músicas e um dos meu sonhos é <strong>ir no show deles</strong>, minha música favorita dessa banda é "On call" por ter um grave magnífico.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card">
+                <img src="_img/jorgemateus.jpg" class="card-img-top" alt="Microsoft OneDrive">
+                <div class="card-body">
+                  <h5 class="card-title titulo2">Sertanejo</h5>
+                  <p class="card-text texto musica">Um dos meus <strong>estilos musicais favoritos</strong>, principalmente quando combinado com fim de semana e churrasquinho. Minhas duplas favoritas são: Jorge e Mateus, Henrique e Juliano e Mateus e Kauan, mas também gosto muito de um modão antigo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card">
+                <img src="_img/1d.jpg" class="card-img-top" alt="Atualização Windows 10">
+                <div class="card-body">
+                  <h5 class="card-title titulo2">One Direciton</h5>
+                  <p class="card-text texto musica">Esse grupo tem um valor sentimental muito grande pra mim, pois eu <strong>lembro da minha irmã</strong> sempre que escuto. Todas as músicas são muito boas, minha favorita é "Little things".</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Presente -->
+      <div class="mb-4" style="background-color: #FFFFFF;">
+        <h1 class="m-4 pt-2">
+          Presente
+        </h1>
+        <img width="80%" class="mb-3" src="_img/ufabc.jpg" class="img-fluid" alt="...">
+        <p class="texto h3 mx-4 pb-4">
+          Então, falando agora um pouco mais sobre mim, em 2019 me formei como <strong>técnico em mecatrônica na Etec Julio de Mesquita</strong>. Atualmente não trabalho mas estudo o dia inteiro, a minha rotina consiste em: de manhã acordo por volta de 8h00 e tomo um café da manhã, depois fico um pouco com meu irmão mais novo e vou para a aula do <strong>Proa</strong> que começa as 9h00, quando chega próximo de 12h15 eu almoço e troco de roupa, pois as 13h15 eu entro no <strong>SENAI</strong>, onde faço curso de <strong>Eletroeletronica</strong>, saio do Senai as 17h15 e chego em casa por volta das 18h40, tomo um banho e entro na aula da faculdade que começa as 19h00. Faço faculdade na <strong>Universidade Federal do ABC</strong>, atualmente curso <strong>Bacharel em Ciencia e Tecnologia</strong> para futuramente me especializar em <strong>Ciencia da Computação</strong>. A minha maior conquista foi ter sido a primeira pessoa da minha família a conseguir entrar em uma universidade federal.
+        </p>
+      </div>
+
+      <!-- Futuro -->
+      <div class="mb-4" style="background-color: #FFFFFF;">
+        <h1 class="m-4 pt-2">
+          Futuro
+        </h1>
+        <img width="80%" class="mb-3" src="_img/fullstack.png" class="img-fluid" alt="...">
+        <p class="texto h3 mx-4 pb-4">
+          Pra finalizar falarei um pouco sobre minhas abições futuras e como eu planejo o meu <strong>aspecto profissional</strong>. A curto prazo, pretendo, assim quando terminar o Proa, conseguir um emprego de estágio ou jovem aprendiz em uma empresa de tecnologia na área de programação, isso me dará uma base muito legal do mercado e acrescentará muito positivamente na minha vida. Enquanto isso ainda estarei cursando minha faculdade, então pretendo ser efetivado nessa empresa enquanto eu vou me especializando. Após concluir a faculdade pretendo me consolidar como <strong>desenvolvedor full-stack</strong>. Tenho certeza que tenho todas as competências necessárias para realizar esse meu sonho, sou muito esforçado e estudioso, e possuo <strong>Soft-skills</strong> que são muito úteis no cenário da tecnologia, como <strong>boa comunicação</strong:> e <strong>facilidade de aprendizagem</strong>.
+        </p>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid" style="background-color: #6d03da;">
+      <img width="10%" src="_img/logo.png">
+    </footer>
+
+  </body>
+</html>
